@@ -5,6 +5,10 @@ enum CustomerType
 }
 public class Customer {
     // id CRM_ID;
-    CustomerType type;
-    String description;
+    private CustomerType type;
+    private String description;
+    Customer()
+    {
+        description = NULL;
+    }
 }
