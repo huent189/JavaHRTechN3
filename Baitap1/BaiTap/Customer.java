@@ -7,7 +7,7 @@ public class Customer {
     // id CRM_ID;
     private CustomerType type;
     private String description;
-    void getCustomerType(CustomerType type)
+    void setCustomerType(CustomerType type)
     {
         this->type = type;
     }
