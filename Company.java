@@ -1,10 +1,10 @@
-package huent189.bthrtech;
-
+package JavaHRTechN3;
 import android.support.annotation.Nullable;
 
 public class Company extends Customer {
     String name;
-    @Nullable String phone;
+    @Nullable
+    String phone;
     @Nullable String fax;
     Contact mContact = new Contact();
     Details billing = new Details();

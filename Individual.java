@@ -1,5 +1,4 @@
-package huent189.bthrtech;
-
+package JavaHRTechN3;
 import android.support.annotation.Nullable;
 
 public class Individual extends Customer {
