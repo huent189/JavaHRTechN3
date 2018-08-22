@@ -7,8 +7,8 @@ public class Customer {
     // id CRM_ID;
     private CustomerType type;
     private String description;
-    Customer()
+    void getCustomerType(CustomerType type)
     {
-        description = NULL;
+        this->type = type;
     }
 }
