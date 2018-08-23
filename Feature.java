@@ -8,6 +8,9 @@ public class Feature
     private String name; // size name <= 50
     private String description;
 
+    Product product = new Product();
+    Feature feature = new Feature();
+
     public void setId(int temp)
     {
         this.idFeature = temp;
@@ -30,6 +33,7 @@ public class Feature
     {
         return name.length() <= 50;
     }
+
 
     public void setName(String temp)
     {

@@ -7,6 +7,9 @@ public class Product {
     private Rehost rehost;
     private String descriptionProduce;
 
+    BatchCode batchCode = new BatchCode();
+    Entitlement entitlement = new Entitlement();
+
     public void setId(int temp)
     {
         this.idProduce = temp;

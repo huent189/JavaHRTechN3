@@ -4,6 +4,8 @@ public class Customer {
     private String IdCustomer;
     private CustomerType customType;
     private String descriptionCustomer;
+    Entitlement entitlement = new Entitlement();
+    BatchCode batchCode = new BatchCode();
 
     public void setId(String id)
     {

@@ -11,6 +11,8 @@ public class Entitlement extends Customer {
     private Boolean neverExpries = true;
     private String commentEntitlement;
 
+    Product product = new Product();
+
     public void setId(String id)
     {
         this.idEntitlement = id;

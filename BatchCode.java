@@ -3,6 +3,11 @@ package com.company;
 public class BatchCode {
     private String id;
 
+    Feature feature = new Feature();
+    Product product = new Product();
+
+
+
     public boolean checkId(String id)
     {
         return id.length() == 5;
