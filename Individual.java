@@ -1,17 +1,19 @@
 package com.company;
 
-public class Individual {
-    String firstName;
-    String lastName;
-    String middleName;
-    String email;
-    String locale = "English";
+class Individual extends Customer {
+    private String firstName;
+    private String lastName;
+    private String middleName;
+    private String email;
+    private String locale = "English";
+    private Detaills billing = new Detaills();
+    private Detaills shipping = new Detaills();
 
-    public String getFristName()
+    public String getFristNameIndidual()
     {
         return this.firstName;
     }
-    public void setFirstName(String temp)
+    public void setFirstNameIndidual(String temp)
     {
         this.firstName = temp;
     }

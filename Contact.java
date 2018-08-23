@@ -1,9 +1,9 @@
 package com.company;
 
 public class Contact {
-    String firstName;
-    String lastName;
-    String middleName;
-    String email;
-    String locale = "English";
+    private String firstName;
+    private String lastName;
+    private String middleName;
+    private String email;
+    private String locale = "English";
 }

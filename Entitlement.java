@@ -3,13 +3,13 @@ package com.company;
 import java.util.Date;
 
 public class Entitlement extends Customer {
-    Customer cus;
-    String idEntitlement;
-    EntetilementType entetilementType;
-    Date startDate;
-    Date endDate;
-    Boolean neverExpries = true;
-    String commentEntitlement;
+    private Customer cus;
+    private String idEntitlement;
+    private EntetilementType entetilementType;
+    private Date startDate;
+    private Date endDate;
+    private Boolean neverExpries = true;
+    private String commentEntitlement;
 
     public void setId(String id)
     {

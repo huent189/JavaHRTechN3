@@ -1,11 +1,11 @@
 package com.company;
 
 public class Detaills {
-    String street;
-    String city;
-    String postalCode;
-    String state;
-    String country;
+    private String street;
+    private String city;
+    private String postalCode;
+    private String state;
+    private String country;
 
     public void setStreet(String temp)
     {

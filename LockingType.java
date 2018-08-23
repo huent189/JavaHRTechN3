@@ -1,7 +1,7 @@
 package com.company;
 
 public class LockingType {
-    private enum State
+    public enum State
     {
         HL,
         SL_AdimMode,

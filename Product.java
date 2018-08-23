@@ -1,11 +1,11 @@
 package com.company;
 
 public class Product {
-    int idProduce;
-    String name;
-    LockingType lockingType;
-    Rehost rehost;
-    String descriptionProduce;
+    private int idProduce;
+    private String name;
+    private LockingType lockingType;
+    private Rehost rehost;
+    private String descriptionProduce;
 
     public void setId(int temp)
     {

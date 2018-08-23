@@ -4,9 +4,9 @@ import java.lang.String;
 
 public class Feature
 {
-    int idFeature;
-    String name; // size name <= 50
-    String description;
+    private int idFeature;
+    private String name; // size name <= 50
+    private String description;
 
     public void setId(int temp)
     {

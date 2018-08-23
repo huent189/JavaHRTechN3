@@ -1,9 +1,13 @@
 package com.company;
 
-public class Company {
-    String name;
-    String phone;
-    String fax;
+public class Company extends Customer {
+    private String name;
+    private String phone;
+    private String fax;
+    private Detaills billing = new Detaills();
+    private Detaills shipping = new Detaills();
+    private Contact contact = new Contact();
+
 
     public void setName(String name)
     {

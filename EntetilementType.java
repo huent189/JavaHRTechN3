@@ -1,7 +1,7 @@
 package com.company;
 
 public class EntetilementType {
-    private enum state
+    public enum state
     {
         Hardware_Key,
         Product_Key,

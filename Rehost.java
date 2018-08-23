@@ -1,7 +1,7 @@
 package com.company;
 
 public class Rehost {
-    private enum state
+    public enum state
     {
         Enable,
         Disable,
