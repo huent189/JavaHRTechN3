@@ -4,13 +4,16 @@ import java.util.Date;
 
 enum EntitlementType
 {
-    HardwareKey,ProductKey, ProtectionKeyUpdate;
+    // tạo như này dược nhỉ
+    HardwareKey = 1;
+    ProductKey = 2;
+    ProtectionKeyUpdate = 3;
 }
 public class Entitlement {
-    String EID;
-    EntitlementType type;
-    Date startDate;
-    Date endDate;
-    Boolean neverExpires = true;
-    String comments;
+    private String EID;
+    private EntitlementType type;
+    private Date startDate; // cái date này là ntn
+    private Date endDate;
+    private Boolean neverExpires = true;
+    private String comments;
 }
