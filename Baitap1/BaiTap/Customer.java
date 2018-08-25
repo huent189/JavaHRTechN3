@@ -1,10 +1,11 @@
 package BaiTap;
-enum CustomerType
+public enum CustomerType
 {
     Individual, Company;
 }
 public class Customer {
-    // id CRM_ID;
-    CustomerType type;
-    String description;
+    private string CRM_ID;
+    private CustomerType type;
+    private String description;
+    p
 }
